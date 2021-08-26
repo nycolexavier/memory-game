@@ -15,10 +15,18 @@
 ### Objetivo
 Nesse repositório guardo o jogo da memória que foi proposto nessa aula. 
 
-### Features
+### Things we are going to cover:
 
-- [X] How to Code a Card Matching Game
-- [ ] How To Code Game In Plain JavaScript
+- [ ] push( )
+- [ ] querySelector( )
+- [ ] setAttribute( )
+- [ ] getAttribute( )
+- [ ] createElement( )
+- [ ] appendChild( )
+- [ ] Math.random( )
+- [ ] sort( )
+- [ ] For loops
+
 
 ### Tecnologias
 
