@@ -51,7 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     ]
 
+    cardArray.sort(() => 0.5 - Math.random())
+
     const grid = document.querySelector('grid')
+    const resultDisplay = document.querySelector('#result')
     var cardsChosen = []
     var cardsChosenId = []
     var cardsWon = []
@@ -81,6 +84,12 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[optionOneId].setAttribute('src', 'assets/blank.png')
             cards[optionTwoId].setAttribute('src', 'assets/blank.png')
             alert('Sorry, try again')
+        }
+        cardsChosen = []
+        cardsChosenId = []
+        resultDisplay.textContent = cardsWon.length
+        if (cardsWon.length === cardArray.length/2) {
+            
         }
     }
 
