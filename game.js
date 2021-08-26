@@ -1,3 +1,5 @@
+let cardsChosen = []
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // card option
@@ -55,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const grid = document.querySelector('.grid')
     const resultDisplay = document.querySelector('#result')
-    let cardsChosen = []
+    cardsChosen = []
     let cardsChosenId = []
     let cardsWon = []
 
@@ -93,9 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('You found a match')
             cards[optionOneId].setAttribute('src', 'assets/white.png')
             cards[optionTwoId].setAttribute('src', 'assets/white.png')
-            cards[optionOneId].removeEventListener('click', 'flipCard')
-            cards[optionTwoId].removeEventListener('click', 'flipCard')
+            cards[optionOneId].removeEventListener('click', flipCard)
+            cards[optionTwoId].removeEventListener('click', flipCard)
             cardsWon.push(cardsChosen)
+            
         }else {
             cards[optionOneId].setAttribute('src', 'assets/blank.png')
             cards[optionTwoId].setAttribute('src', 'assets/blank.png')
