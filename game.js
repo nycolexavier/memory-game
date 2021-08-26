@@ -76,7 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('You found a match')
             cards[optionOneId].setAttribute('src', 'assets/white.png')
             cards[optionTwoId].setAttribute('src', 'assets/white.png')
-            cards
+            cardsWon.push(cardsChosen)
+        } else {
+            cards[optionOneId].setAttribute('src', 'assets/blank.png')
+            cards[optionTwoId].setAttribute('src', 'assets/blank.png')
+            alert('Sorry, try again')
         }
     }
 
