@@ -49,20 +49,21 @@ document.addEventListener('DOMContentLoaded', () => {
         name: 'yellow',
         img: 'assets/yellow.png'
     }
-]
+    ]
 
-const grid = document.querySelector('grid')
+    const grid = document.querySelector('grid')
 
-// create your board
-function createBoard () {
-    for (let i = 0; i < cardArray.length; i++) {
-        var card = document.createElement('img')
-        card.setAttribute('src', 'images/blank.png')
-        card.setAttribute('data-id', i)
-        // card.addEventListener('click', flipcard)
-        grid.appendChild(card)
+    // create your board
+    function createBoard() {
+        for (let i = 0; i < cardArray.length; i++) {
+            var card = document.createElement('img')
+            card.setAttribute('src', 'images/blank.png')
+            card.setAttribute('data-id', i)
+            // card.addEventListener('click', flipcard)
+            grid.appendChild(card)
+        }
     }
-}
+
 
 
 
