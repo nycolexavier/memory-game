@@ -1,8 +1,8 @@
 ![banners (1)](https://user-images.githubusercontent.com/74930052/130859266-44cbdba5-f74f-47b3-b208-676136fcd41d.png)
 ----
-<img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=ff0000&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=Status&message=complete&color=00800&style=for-the-badge&logo=ghost"/>
  
-<p align="center">As aulas estão disponíveis no canal Web Dev Simplified <a href="https://www.youtube.com/watch?v=28VfzEiJgy4&t=1300s" > Aqui </a> </p>
+<p align="center">As aulas estão disponíveis no canal freeCodeCamp <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=1183s" > Aqui </a> </p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -17,15 +17,15 @@ Nesse repositório guardo o jogo da memória que foi proposto nessa aula.
 
 ### Things we are going to cover:
 
-- [ ] push( )
-- [ ] querySelector( )
-- [ ] setAttribute( )
-- [ ] getAttribute( )
-- [ ] createElement( )
-- [ ] appendChild( )
-- [ ] Math.random( )
-- [ ] sort( )
-- [ ] For loops
+- [X] push( )
+- [X] querySelector( )
+- [X] setAttribute( )
+- [X] getAttribute( )
+- [X] createElement( )
+- [X] appendChild( )
+- [X] Math.random( )
+- [X] sort( )
+- [X] For loops
 
 
 ### Tecnologias
